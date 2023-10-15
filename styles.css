@@ -136,3 +136,21 @@ body {
     font-style: italic;
     font-weight: 700;
 }
+
+
+/* Hover effects */
+
+#hero-title:hover {
+    padding: 16px 64px;
+    border-radius: 15px;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#cathedral:hover, #temple:hover, #theater:hover {
+    width: 180px;
+    height: 180px;
+    border: 6px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
