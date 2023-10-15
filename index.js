@@ -25,7 +25,7 @@ heroTitle.addEventListener('mouseleave', () => {
 // cathedral
 
 cathedral.addEventListener('mouseover', () => {
-    siteDiv.style.backgroundImage = 'url("images/3-St-Maurice-Cathedral.jpeg")';
+    siteDiv.style.backgroundImage = 'url("images/3-st-maurice-cathedral.jpeg")';
     siteDiv.style.backgroundSize = 'contain';
 });
 
