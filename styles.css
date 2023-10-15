@@ -1,0 +1,9 @@
+@font-face {
+    src: url('seagram.ttf');
+    font-family: seagram;
+}
+
+body {
+    margin: 0;
+    font-family: 'Caudex', serif;
+}
