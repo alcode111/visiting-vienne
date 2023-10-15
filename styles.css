@@ -103,3 +103,36 @@ body {
     font-style: italic;
     width: 300px;
 }
+
+
+/* Third section */
+
+#guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    background-image: url("images/2-sainte-colombe.jpg");
+}
+
+#card {
+    width: 400px;
+    height: 190px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    background: #908d90;
+    color: #2b2839;
+    border-bottom: 6px solid beige;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 140px;
+}
+
+.presentation {
+    font-style: italic;
+    font-weight: 700;
+}
