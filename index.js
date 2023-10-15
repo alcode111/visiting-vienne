@@ -20,3 +20,37 @@ heroTitle.addEventListener('mouseleave', () => {
     heroDiv.style.backgroundImage = 'url("images/1-vienne.jpeg")';
     heroDiv.style.backgroundSize = 'contain';
 })
+
+
+// cathedral
+
+cathedral.addEventListener('mouseover', () => {
+    siteDiv.style.backgroundImage = 'url("images/3-St-Maurice-Cathedral.jpeg")';
+    siteDiv.style.backgroundSize = 'contain';
+});
+
+cathedral.addEventListener('mouseleave', () => {
+    siteDiv.style.background = '#242c1e';
+})
+
+// temple
+
+temple.addEventListener('mouseover', () => {
+    siteDiv.style.backgroundImage = 'url("images/4-temple.jpeg")';
+    siteDiv.style.backgroundSize = 'contain';
+})
+
+temple.addEventListener('mouseleave', () => {
+    siteDiv.style.background = '#242c1e';
+})
+
+// theater
+
+theater.addEventListener('mouseover', () => {
+    siteDiv.style.backgroundImage = 'url("images/5-theater.png")';
+    siteDiv.style.backgroundSize = 'contain';
+})
+
+theater.addEventListener('mouseleave', () => {
+    siteDiv.style.background = '#242c1e';
+})
